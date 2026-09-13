@@ -37,7 +37,3 @@ The suite combines positive business paths with negative validation, boundary an
 ## Quality Expectations
 
 A passing case requires more than seeing a success message. The persisted business state must be correct, protected data must remain protected, duplicate or partial operations must not occur, and the result should remain correct after refresh/re-query/re-authentication where applicable.
-
-## Notes for Interview Review
-
-The cases are intentionally detailed so they can support discussion of **why** a scenario matters, what risk it addresses, how data would be prepared, what evidence would be collected, and what additional regression would be selected if the case failed.
